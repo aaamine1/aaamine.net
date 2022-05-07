@@ -31,6 +31,7 @@
     text-decoration: none;
     color: black;
     padding: 40px;
+    font-family: "JMH Typewriter Dry";
   }
 
   .logo-top:hover {
@@ -40,11 +41,6 @@
 
 
 /* Side link styling */
-  .navigation-links {
-
-
-  }
-
   .navigation-links ul {
     list-style: none;
     display: flex;
@@ -56,7 +52,13 @@
     text-decoration: none;
     font-size: 2rem;
     padding: 40px;
+    font-family: "JMH Typewriter Dry";
 
+
+  }
+
+  .navigation-links li a {
+    color: black;
   }
 
 </style>
