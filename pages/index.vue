@@ -2,11 +2,20 @@
   <div class="root">
     <div class="home-intro">
       <Navbar/>
-    </div>
 
+    </div>
   </div>
 
 </template>
+
+
+<style>
+  .home-intro {
+    height: 100vh;
+    background-image: url('../assets/website-bg-red.jpg');
+  }
+</style>
+
 
 <script>
 export default {

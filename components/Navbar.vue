@@ -27,11 +27,12 @@
 
 /* Styling the top-left "logo" */
   .logo-top {
-    font-size: 4rem;
+    font-size: 6rem;
     text-decoration: none;
     color: black;
     padding: 40px;
     font-family: "JMH Typewriter Dry";
+    font-weight: 700;
   }
 
   .logo-top:hover {
@@ -50,9 +51,10 @@
 
   .navigation-links li {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 40px;
     font-family: "JMH Typewriter Dry";
+    font-weight: 700;
 
 
   }
@@ -61,4 +63,8 @@
     color: black;
   }
 
+  .navigation-links li a:hover {
+    color: white;
+    text-decoration: none;
+  }
 </style>

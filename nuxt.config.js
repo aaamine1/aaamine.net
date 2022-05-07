@@ -43,6 +43,6 @@ export default {
 
   fontLoader: {
     /* module options */
-    url: '~/assets/fonts/JMH-Typewriter-dry-Black.otf'
+    url: '~/assets/fonts/JMH-Typewriter-dry.otf'
   }
 }

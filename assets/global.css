@@ -3,5 +3,21 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/assets/fonts/JMH-Typewriter-dry-Black.otf') format('truetype');
+  src: url('~/assets/fonts/JMH-Typewriter-dry.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'JMH Typewriter Dry';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('~/assets/fonts/JMH-Typewriter-dry-Bold.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'JMH Typewriter Dry';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('~/assets/fonts/JMH-Typewriter-dry-Black.otf') format('truetype');
 }
