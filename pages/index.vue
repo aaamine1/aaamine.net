@@ -1,6 +1,7 @@
 <template>
-  <div class="home mt-3">
-    <h1> Hi, I'm Amine. </h1>
+  <div class="">
+    <Navbar/>
+    <h1> ----- </h1>
   </div>
 
 </template>
