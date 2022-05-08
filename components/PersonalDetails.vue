@@ -17,7 +17,9 @@
   }
 
   .details {
+    width: 50%;
     position: relative;
+    padding: 35px;
   }
 
   .details h1 {
@@ -27,9 +29,9 @@
 
   .small-details {
     font-size: 1.6rem;
-    position:absolute;
-    left: 3%;
     line-height: 130%;
+    position: relative;
+    left: 6%;
   }
 
   .small-details h2 {

@@ -1,14 +1,9 @@
 <template>
-  <div class="root">
-    <div class="home-intro">
-      <Navbar/>
-      <PersonalDetails/>
-
-
-
-    </div>
+  <div class="home-intro">
+    <Navbar/>
+    <PersonalDetails/>
+    <DownButton/>
   </div>
-
 </template>
 
 
@@ -18,8 +13,10 @@
     background-image: url('../assets/website-bg.jpg');
     display: flex;
     flex-direction: column;
-    position: relative;
+    justify-content: space-between;
   }
+
+
 
 
 </style>
