@@ -1,5 +1,4 @@
 <template>
-<div class="root">
   <div class="details">
     <h1>*/Amine Achouri</h1>
     <div class="small-details">
@@ -9,7 +8,6 @@
       </p>
     </div>
   </div>
-</div>
 </template>
 
 <style>

@@ -3,6 +3,9 @@
     <div class="home-intro">
       <Navbar/>
       <PersonalDetails/>
+
+
+
     </div>
   </div>
 
@@ -13,7 +16,12 @@
   .home-intro {
     height: 100vh;
     background-image: url('../assets/website-bg.jpg');
+    display: flex;
+    flex-direction: column;
+    position: relative;
   }
+
+
 </style>
 
 
