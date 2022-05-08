@@ -1,8 +1,8 @@
 <template>
   <div class="home-intro">
     <Navbar/>
-    <DownButton class="test"/>
-    <PersonalDetails/>
+    <DownButton class="button-position"/>
+    <PersonalDetails class="details"/>
   </div>
 </template>
 
@@ -17,12 +17,21 @@
     position: relative;
   }
 
-.test {
-  position: absolute;
-  left: 49vw;
-  bottom: 5vh
-}
+  .button-position {
+    position: absolute;
+    left: 49vw;
+    bottom: 5vh
+  }
 
+/* MEDIA QUERIES  */
+
+  @media(max-width: 990px) {
+    .details {
+      position: absolute;
+      bottom: 10vh;
+
+    }
+  }
 
 </style>
 

@@ -67,4 +67,34 @@
     color: white;
     text-decoration: none;
   }
+
+
+  /* MEDIA QUERIES  */
+
+  @media(max-width: 1300px) {
+    .navigation-links li {
+        padding: 15px;
+    }
+  }
+
+  @media(max-width: 1180px) {
+    .navigation-links {
+    display: none;
+
+
+  }
+
+  @media(max-width: 768px) {
+    .navbar {
+    display: flex;
+    justify-content: center;
+    }
+  }
+
+  @media(max-width: 560px) {
+    .logo-top{
+      font-size: 3.5rem;
+    }
+  }
+}
 </style>
