@@ -1,18 +1,30 @@
 <template>
-  <div class="down-button">
     <a href="#about" class="button">
-
-      <img src="../assets/" alt="">
+      <img src="../assets/down-arrow.png" alt="down arrow" class="down-arrow">
     </a>
-  </div>
 </template>
 
 <style>
   .button {
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     background-color: black;
     border-radius: 50%;
-    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+  .button:hover {
+    opacity: 70%;
+  }
+
+  .down-arrow {
+    height: 15px;
+    display: flex;
+
+  }
+
+
 </style>

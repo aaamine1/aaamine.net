@@ -1,6 +1,6 @@
 <template>
   <div class="details">
-    <h1>*/Amine Achouri</h1>
+    <h1>*/Amine A. Achouri</h1>
     <div class="small-details">
       <h2>Brussels, Rome</h2>
       <p>
