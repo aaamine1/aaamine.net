@@ -40,4 +40,9 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
+
+  // fontLoader: {
+  //   /* module options */
+  //   url: '~/assets/fonts/JMH-Typewriter-dry.otf'
+  // }
 }

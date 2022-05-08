@@ -2,7 +2,7 @@
   <div class="root">
     <div class="home-intro">
       <Navbar/>
-
+      <PersonalDetails/>
     </div>
   </div>
 
@@ -12,7 +12,7 @@
 <style>
   .home-intro {
     height: 100vh;
-    background-image: url('../assets/website-bg-red.jpg');
+    background-image: url('../assets/website-bg.jpg');
   }
 </style>
 
