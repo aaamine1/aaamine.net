@@ -6,7 +6,7 @@
     <div class="small-details">
       <h2>Brussels, Rome</h2>
       <p>
-       email: aaamine.contact@gmail.com <br> tel: +32 040000000 <br> tel2: +44 070000000
+        email: aaamine.contact@gmail.com <br> tel: +32 040000000 <br> tel2: +44 070000000
       </p>
     </div>
   </div>
@@ -15,11 +15,11 @@
 <style>
   .details {
     font-family: "JMH Typewriter Dry";
-    color: black;
+    color: #343434;
   }
 
   .details {
-    width: 70%;
+    width: 50%;
     position: relative;
     padding: 35px;
   }
@@ -44,6 +44,9 @@
   /* MEDIA QUERIES */
 
   @media(max-width: 1115px) {
+    .details {
+    width: 50%;
+    }
 
     .details h1 {
       font-size: 2.5rem;
@@ -53,12 +56,18 @@
     }
   }
 
+  @media(max-width: 990px) {
+    .details {
+    width: 80%;
+    }
+  }
+
   @media(max-width: 680px) {
     .details {
-    width: 90%;
+    display: none;
     }
     .details h1 {
-      font-size: 2.5rem
+      font-size: 1.8rem;
     }
 
     .small-details {
@@ -70,14 +79,6 @@
     }
   }
 
-  @media(max-width: 680px) {
-      .details {
-        padding: 10px;
-      }
-      .details h1 {
-      font-size: 1.8rem;
-    }
-  }
 
   @media(max-width: 360px) {
     .details h1 {

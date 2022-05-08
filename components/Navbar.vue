@@ -29,7 +29,7 @@
   .logo-top {
     font-size: 6rem;
     text-decoration: none;
-    color: black;
+    color: #252322;
     padding: 40px;
     font-family: "JMH Typewriter Dry";
     font-weight: 700;
@@ -60,11 +60,11 @@
   }
 
   .navigation-links li a {
-    color: black;
+    color: #252322;
   }
 
   .navigation-links li a:hover {
-    color: white;
+    opacity: 0.8;
     text-decoration: none;
   }
 
