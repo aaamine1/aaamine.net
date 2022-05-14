@@ -10,7 +10,7 @@
 <style>
   .home-intro {
     height: 100vh;
-    background-image: url('../assets/website-bg-green.jpg');
+    background-image: url('~/assets/website-bg-green.jpg');
     display: flex;
     flex-direction: column;
     justify-content: space-between;
