@@ -11,5 +11,5 @@ jobs:
       - run: yarn install --frozen-lockfile && yarn generate
       - uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.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 }}
           publish_dir: ./dist
