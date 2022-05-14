@@ -1,7 +1,6 @@
 <template>
   <div class="home-intro">
     <Navbar/>
-    <h1>poop</h1>
     <DownButton class="button-position"/>
     <PersonalDetails class="details"/>
   </div>
