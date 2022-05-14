@@ -16,6 +16,10 @@ export default {
     ]
   },
 
+  export:  {
+    target: 'static' // default is 'server'
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['~/assets/global.css'
   ],
@@ -40,9 +44,4 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
-
-  // fontLoader: {
-  //   /* module options */
-  //   url: '~/assets/fonts/JMH-Typewriter-dry.otf'
-  // }
 }
