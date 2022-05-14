@@ -17,7 +17,10 @@ export default {
   },
 
   export:  {
-    target: 'static' // default is 'server'
+    target: 'static', // default is 'server'
+    router: {
+      base: '/<aaamine.net>/'
+    }
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
