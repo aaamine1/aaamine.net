@@ -16,14 +16,12 @@ export default {
     ]
   },
 
-  export default {
-    target: 'static', // default is 'server'
-    router: {
+  target: 'static', // default is 'server'
+  router: {
       base: '/aaamine.net/'
-    }
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
+  // Global CSS: https ://go.nuxtjs.dev/config-css
   css: ['~/assets/global.css'
   ],
 
