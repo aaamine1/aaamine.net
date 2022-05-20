@@ -20,7 +20,7 @@
 
   .button-position {
     position: absolute;
-    left: 49vw;
+    left: calc(50vw -50px );
     bottom: 5vh
   }
 
