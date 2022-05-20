@@ -1,6 +1,7 @@
 <template>
     <a href="#about" class="button">
-      <img src="/down-arrow.png" alt="down arrow" class="down-arrow">
+      <!-- <img src="~/assets/down-arrow.png" class="down-arrow"> -->
+      <img src="~static/down-arrow.png" class="down-arrow">
     </a>
 </template>
 
