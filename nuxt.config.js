@@ -16,7 +16,7 @@ export default {
     ]
   },
 
-  export:  {
+  export default {
     target: 'static', // default is 'server'
     router: {
       base: '/aaamine.net/'
