@@ -1,8 +1,13 @@
 <template>
   <div class="home-intro">
     <Navbar/>
-    <DownButton class="button-position"/>
-    <PersonalDetails class="details"/>
+    <div class="button-position">
+      <DownButton/>
+    </div>
+    <div class="details-root">
+      <PersonalDetails class="details"/>
+    </div>
+
   </div>
 </template>
 
@@ -19,17 +24,19 @@
   }
 
   .button-position {
+    display: inline-block;
     position: absolute;
-    left: calc(50vw -50px );
-    bottom: 5vh
+    bottom: 5vh;
+    left: calc(50% - 50px);
+
   }
 
 /* MEDIA QUERIES  */
 
-  @media(max-width: 990px) {
+  @media(max-width: 1440px) {
     .details {
       position: absolute;
-      bottom: 10vh;
+      bottom: 9vh;
 
     }
   }
