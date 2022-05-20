@@ -28,18 +28,16 @@
     position: absolute;
     bottom: 5vh;
     left: calc(50% - 50px);
+    z-index: 1;
 
+  }
+
+  .details-root {
+    z-index: 0;
   }
 
 /* MEDIA QUERIES  */
 
-  @media(max-width: 1440px) {
-    .details {
-      position: absolute;
-      bottom: 9vh;
-
-    }
-  }
 
 </style>
 
