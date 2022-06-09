@@ -33,7 +33,7 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ['nuxt-font-loader'
+  buildModules: ['nuxt-font-loader', '@nuxtjs/google-fonts', '@nuxtjs/fontawesome'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -42,7 +42,15 @@ export default {
     'bootstrap-vue/nuxt'
   ],
 
+  googleFonts: {
+    families: {
+      Roboto: true,
+      Inter: true,
+    }
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
+
 }

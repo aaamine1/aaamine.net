@@ -19,7 +19,11 @@
         </div>
       </div>
       <div class="about-paragraph">
-        <h1>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</h1>
+        <span>
+        <h3 class="font-weight-bold">I'm a full stack developer with skills in Finance, Localization and Translation. 👨🏽‍💻</h3>
+        <h3> Having previously worked in various countries with up-to 5 languages, I can help you localize your business or its content across platforms. </h3>
+        </span>
+
       </div>
 
     </div>
@@ -59,17 +63,16 @@
 }
 
 .about-section {
-  height: 65vh;
+  height: 75vh;
   background-color: #f2f2f2;
   z-index: 0;
   display: flex;
-  justify-content: space-around;
 
 }
 
 .note-card {
   height: 350px;
-  padding: 100px;
+  margin: 100px;
   position: relative;
   z-index: 1;
 }
@@ -83,12 +86,16 @@
 }
 
 .about-paragraph {
-  padding: 100px;
-  text-align: center;
+  margin: 100px;
   display: flex;
   align-items: center;
+  font-family: "Inter";
+  text-align: center;
 }
 
+.about-paragraph h3 {
+  font-size: 1.3rem;
+}
 /* MEDIA QUERIES  */
 
 
