@@ -1,4 +1,5 @@
 <template>
+
   <div class="root">
     <div class="home-intro">
       <Navbar/>
@@ -12,18 +13,17 @@
     </div>
     <div class="about-section" id="about">
       <div class="about-parent">
-
         <img src="~/static/me.png" class="me-window" alt="">
+        <div class="socials">
+          <a href=""><font-awesome-icon icon="fa-brands fa-linkedin" /></a>
+          <a href=""><font-awesome-icon icon="fa-brands fa-github" /></a>
+          <a href=""><font-awesome-icon icon="fa-brands fa-medium" /></a>
+          <a href=""> <font-awesome-icon icon="fa-brands fa-instagram" /></a>
+        </div>
+        <a href="" class="button-green cv-button"><font-awesome-icon icon="fa-solid fa-circle-arrow-down" /> Download CV</a>
         <div class="about-child">
           <img src="~/static/note-card.jpg" class="note-card" alt="">
         </div>
-      </div>
-      <div class="about-paragraph">
-        <span>
-        <h3 class="font-weight-bold">I'm a full stack developer with skills in Finance, Localization and Translation. 👨🏽‍💻</h3>
-        <h3> Having previously worked in various countries with up-to 5 languages, I can help you localize your business or its content across platforms. </h3>
-        </span>
-
       </div>
 
     </div>
@@ -60,13 +60,20 @@
 /* ABOUT SECTION STYLING */
 .about-parent {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10vw;
 }
 
 .about-section {
-  height: 75vh;
-  background-color: #f2f2f2;
+  height: 65vh;
+  background-color: #252322;
   z-index: 0;
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+
 
 }
 
@@ -85,16 +92,28 @@
   z-index: 2;
 }
 
-.about-paragraph {
-  margin: 100px;
-  display: flex;
-  align-items: center;
-  font-family: "Inter";
-  text-align: center;
+.socials {
+  position: absolute;
+  bottom: 100px;
+  z-index: 3;
 }
 
-.about-paragraph h3 {
-  font-size: 1.3rem;
+.socials a {
+  font-size: 40px;
+  color: #252322;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.socials a:hover {
+  opacity: 0.8;
+}
+
+.cv-button {
+  position: absolute;
+  bottom: 278px;
+  right: -30px;
+  z-index: 5;
 }
 /* MEDIA QUERIES  */
 

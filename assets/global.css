@@ -21,3 +21,35 @@
   font-display: swap;
   src: url('~/assets/fonts/JMH-Typewriter-dry-Black.otf') format('truetype');
 }
+
+.button-black {
+  background-color:#252322;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+  margin: 5px;
+}
+
+.button-black:hover {
+  background-color:#312f2d;
+  text-decoration: none;
+  color: rgb(227, 224, 224);
+}
+
+.button-green {
+  background-color:#5ec07d;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+  margin: 5px;
+}
+
+.button-green:hover {
+  background-color:#312f2d;
+  text-decoration: none;
+  color: rgb(227, 224, 224);
+}

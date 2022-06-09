@@ -4,7 +4,7 @@
       <h1>*/Amine A. Achouri</h1>
     </div>
     <div class="small-details">
-      <h2>Brussels, Rome</h2>
+      <h2>Brussels, Rome, London</h2>
       <p>
         email: aaamine.contact@gmail.com <br> tel: +32 040000000 <br> tel2: +44 070000000
       </p>
