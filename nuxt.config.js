@@ -53,4 +53,13 @@ export default {
   build: {
   },
 
+  fontawesome: {
+    component: 'Fa',
+    suffix: false,
+    icons: {
+      solid: true,
+      brands: true,
+    },
+  },
+
 }
