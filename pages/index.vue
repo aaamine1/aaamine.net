@@ -32,6 +32,8 @@
       <h1>*/Services</h1>
       <ServiceCards />
     </div>
+
+    <Projects />
   </div>
 </template>
 
@@ -124,7 +126,6 @@
 
 /* SERVICES SECTION STYLING */
 .services-section {
-  height: 85vh;
   background-color: #faf4f0;
   z-index: 0;
 

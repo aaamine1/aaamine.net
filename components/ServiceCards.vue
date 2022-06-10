@@ -31,7 +31,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 100px;
   padding: 30px;
-  margin: 30px;
 
 }
 
@@ -40,6 +39,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
 
 }
 
