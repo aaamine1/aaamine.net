@@ -27,6 +27,11 @@
       </div>
 
     </div>
+
+    <div class="services-section">
+      <h1>*/Services</h1>
+      <ServiceCards />
+    </div>
   </div>
 </template>
 
@@ -107,6 +112,7 @@
 
 .socials a:hover {
   opacity: 0.8;
+  color: #5ec07d;
 }
 
 .cv-button {
@@ -114,6 +120,21 @@
   bottom: 278px;
   right: -30px;
   z-index: 5;
+}
+
+/* SERVICES SECTION STYLING */
+.services-section {
+  height: 100vh;
+  background-color: #faf4f0;
+  z-index: 0;
+
+}
+
+.services-section h1 {
+  font-family: "JMH Typewriter Dry";
+  font-weight: bold;
+  font-size: 4rem;
+  padding: 30px;
 }
 /* MEDIA QUERIES  */
 
