@@ -124,7 +124,7 @@
 
 /* SERVICES SECTION STYLING */
 .services-section {
-  height: 100vh;
+  height: 85vh;
   background-color: #faf4f0;
   z-index: 0;
 
