@@ -144,6 +144,9 @@
   font-size: 5.5rem;
   padding: 30px;
   color: #333333;
+  display: flex;
+  justify-content: center;
+  margin: 0px 65px 0px 0px;
 }
 
 .projects-section {
@@ -158,6 +161,9 @@
   font-size: 5.5rem;
   padding: 30px;
   color: #333333;
+  display: flex;
+  justify-content: center;
+  margin: 0px 65px 0px 0px;
 }
 /* MEDIA QUERIES  */
 

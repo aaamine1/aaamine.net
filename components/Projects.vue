@@ -5,31 +5,31 @@
 
       <div class="card-grid">
         <a class="cardo" href="#">
-          <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)"></div>
+          <div class="card__background" style="background-image: url(https://wallpaperaccess.com/full/1129018.jpg)"></div>
           <div class="card__content">
-            <p class="card__category">Category</p>
-            <h3 class="card__heading">Example Card Heading</h3>
+            <p class="card__category">Fullstack Web Application</p>
+            <h3 class="card__heading">Auto-Mate</h3>
           </div>
         </a>
         <a class="cardo" href="#">
-          <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557187666-4fd70cf76254?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+          <div class="card__background" style="background-image: url(https://wallpaperaccess.com/full/1129018.jpg)"></div>
           <div class="card__content">
-            <p class="card__category">Category</p>
-            <h3 class="card__heading">Example Card Heading</h3>
+            <p class="card__category">News / Media</p>
+            <h3 class="card__heading">The Tech-Post</h3>
           </div>
         </a>
         <a class="cardo" href="#">
-          <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+          <div class="card__background" style="background-image: url(https://wallpaperaccess.com/full/1129018.jpg)"></div>
           <div class="card__content">
-            <p class="card__category">Category</p>
-            <h3 class="card__heading">Example Card Heading</h3>
+            <p class="card__category">Video</p>
+            <h3 class="card__heading">Cooking for Maastricht's Refugees</h3>
           </div>
         </a>
         <a class="cardo" href="#">
-          <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+          <div class="card__background" style="background-image: url(https://wallpaperaccess.com/full/1129018.jpg)"></div>
           <div class="card__content">
-            <p class="card__category">Category</p>
-            <h3 class="card__heading">Example Card Heading</h3>
+            <p class="card__category">Design / Photo</p>
+            <h3 class="card__heading">Album Cover Series</h3>
           </div>
         </a>
       </div>
@@ -99,7 +99,7 @@
   .cardo{
     list-style: none;
     position: relative;
-    height: 70%;
+    height: 100%;
   }
 
   .cardo:before{
@@ -153,6 +153,6 @@
     font-size: 1.9rem;
     text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
     line-height: 1.4;
-    word-spacing: 100vw;
+
   }
 </style>

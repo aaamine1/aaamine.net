@@ -7,8 +7,8 @@
         <a href=""><font-awesome-icon icon="fa-brands fa-medium" /></a>
         <a href=""> <font-awesome-icon icon="fa-brands fa-instagram" /></a>
       </div>
-      <p>made by [aaa* media]©</p>
-      <p>aaamine.contact@gmail.com</p>
+      <p>👨‍💻 made by [aaa* media]©</p>
+      <a href="mailto: aaamine.contact@gmail.com"><p>aaamine.contact@gmail.com</p></a>
     </div>
   </div>
 </template>
@@ -38,6 +38,20 @@ p
 
   .socials-footer {
     font-size: 2rem;
+  }
+
+  /* MEDIA QUERIES */
+
+  @media(max-width: 768px) {
+    .footer {
+      height: 140px;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .footer p {
+      margin: 4px ;
+    }
   }
 
 </style>
