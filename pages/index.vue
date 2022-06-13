@@ -32,8 +32,12 @@
       <h1>*/Services</h1>
       <ServiceCards />
     </div>
+    <div class="projects-section">
 
-    <Projects />
+      <Projects />
+
+    </div>
+
   </div>
 </template>
 
@@ -134,8 +138,23 @@
 .services-section h1 {
   font-family: "JMH Typewriter Dry";
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 5.5rem;
   padding: 30px;
+  color: #333333;
+}
+
+.projects-section {
+  /* background-image: linear-gradient(15deg, #5ec07d 0%, #8cf8cb 150%); */
+  background-color: #e1ece3;
+
+
+}
+.projects-section h1 {
+  font-family: "JMH Typewriter Dry";
+  font-weight: bold;
+  font-size: 5.5rem;
+  padding: 30px;
+  color: #333333;
 }
 /* MEDIA QUERIES  */
 
