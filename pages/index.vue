@@ -11,6 +11,7 @@
       </div>
 
     </div>
+
     <div class="about-section" id="about">
       <div class="about-parent">
         <img src="~/static/me.png" class="me-window" alt="">
@@ -32,12 +33,14 @@
       <h1>*/Services</h1>
       <ServiceCards />
     </div>
+
     <div class="projects-section">
 
       <Projects />
 
     </div>
 
+    <Footer />
   </div>
 </template>
 
