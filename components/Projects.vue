@@ -4,29 +4,29 @@
     <section class="hero-section">
 
       <div class="card-grid">
-        <a class="cardo" href="#">
-          <div class="card__background" style="background-image: url(https://wallpaperaccess.com/full/1129018.jpg)"></div>
+        <a class="cardo" href="https://github.com/aaamine1/auto-mate" target="_blank">
+          <div class="card__background" style="background-image: url(https://i.imgur.com/H3zW5dG.png)"></div>
           <div class="card__content">
             <p class="card__category">Fullstack Web Application</p>
             <h3 class="card__heading">Auto-Mate</h3>
           </div>
         </a>
-        <a class="cardo" href="#">
-          <div class="card__background" style="background-image: url(https://wallpaperaccess.com/full/1129018.jpg)"></div>
+        <a class="cardo" href="https://www.instagram.com/thetechpost/" target="_blank">
+          <div class="card__background" style="background-image: url(https://i.imgur.com/qdLpCFR.png)"></div>
           <div class="card__content">
             <p class="card__category">News / Media</p>
             <h3 class="card__heading">The Tech-Post</h3>
           </div>
         </a>
-        <a class="cardo" href="#">
-          <div class="card__background" style="background-image: url(https://wallpaperaccess.com/full/1129018.jpg)"></div>
+        <a class="cardo" href="https://www.youtube.com/watch?v=8W4vepCa-H8" target="_blank">
+          <div class="card__background" style="background-image: url(https://i.imgur.com/ZiLxSnW.jpeg)"></div>
           <div class="card__content">
             <p class="card__category">Video</p>
             <h3 class="card__heading">Cooking for Maastricht's Refugees</h3>
           </div>
         </a>
         <a class="cardo" href="#">
-          <div class="card__background" style="background-image: url(https://wallpaperaccess.com/full/1129018.jpg)"></div>
+          <div class="card__background" style="background-image: url(https://i.imgur.com/IXB3cbn.png)"></div>
           <div class="card__content">
             <p class="card__category">Design / Photo</p>
             <h3 class="card__heading">Album Cover Series</h3>
@@ -70,7 +70,7 @@
   .hero-section{
     align-items: flex-start;
     display: flex;
-    min-height: 100%;
+
     justify-content: center;
     padding: var(--spacing-xxl) var(--spacing-l);
   }
@@ -131,7 +131,7 @@
   }
 
   .card-grid:hover > .cardo:not(:hover) .card__background{
-    filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+    filter: brightness(0.5) saturate(0) contrast(1.2) ;
   }
 
   .card__content{
