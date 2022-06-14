@@ -10,7 +10,7 @@
       </div>
       <div class="service-card">
         <img src="~/static/video.png" alt="">
-        <h2>Video & Content Production</h2>
+        <h2>Media & Content Production</h2>
         <p>Proin eget tortor risus. Donec sollicitudin molestie malesuada. Nulla quis lorem ut libero malesuada feugiat.</p>
       </div>
       <div class="service-card">

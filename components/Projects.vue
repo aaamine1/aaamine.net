@@ -84,7 +84,7 @@
     width: 100%;
   }
 
-  @media(min-width: 540px){
+  @media(min-width: 360px){
     .card-grid{
       grid-template-columns: repeat(2, 1fr);
     }
