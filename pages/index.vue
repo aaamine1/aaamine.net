@@ -52,8 +52,8 @@
 <style>
 /* HOME INTRO STYLING  */
   .home-intro {
-    height: 100vh;
-
+    min-height: 100vh;
+    max-height: -webkit-fill-available;
     background-image: url("~/static/website-bg-green.jpg");
     /* background-image: url('~/assets/website-bg-green.jpg'); */
     display: flex;
@@ -66,7 +66,8 @@
     display: inline-block;
     position: absolute;
     bottom: 5vh;
-    left: calc(50% - 50px);
+    right: 50%;
+    margin-right: -25px;
     z-index: 1;
 
   }
@@ -90,6 +91,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  height: 65vh;
 
 
 }
@@ -175,6 +177,8 @@
   display: flex;
   justify-content: center;
 }
+
+
 /* MEDIA QUERIES  */
   @media (max-width: 490px) {
     .about-child img {
@@ -208,8 +212,10 @@
 
   @media(max-width: 879px) {
 
+
+
       .note-card {
-        margin: 60px 0px 25px 0px;
+        margin: 60px 0px 15px 0px;
       }
 
         .me-window {
@@ -228,7 +234,7 @@
         justify-content: s;
       }
       .socials {
-        bottom: 90px;
+        bottom: 80px;
       }
       .cv-button {
         position: static;

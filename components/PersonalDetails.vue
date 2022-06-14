@@ -62,7 +62,7 @@
     }
   }
 
-  @media(max-width: 680px) {
+  @media(max-width: 722px) {
     .details {
     display: none;
     }
