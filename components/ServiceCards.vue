@@ -57,4 +57,15 @@
     margin-bottom: 30px;
 }
 
+@media(max-width: 976px) {
+  .service-cards {
+    grid-template-columns: 1fr ;
+    grid-gap: 10px;
+  }
+
+  .service-card {
+    padding: 15px;
+  }
+}
+
 </style>

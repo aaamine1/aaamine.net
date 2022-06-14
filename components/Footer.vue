@@ -2,10 +2,10 @@
   <div class="root">
     <div class="footer">
       <div class="socials-footer">
-        <a href=""> <font-awesome-icon icon="fa-brands fa-linkedin" /></a>
-        <a href=""><font-awesome-icon icon="fa-brands fa-github" /></a>
-        <a href=""><font-awesome-icon icon="fa-brands fa-medium" /></a>
-        <a href=""> <font-awesome-icon icon="fa-brands fa-instagram" /></a>
+        <a href="https://www.linkedin.com/in/amine-achouri/" target="_blank"> <font-awesome-icon icon="fa-brands fa-linkedin" /></a>
+        <a href="https://github.com/aaamine1" target="_blank"><font-awesome-icon icon="fa-brands fa-github" /></a>
+        <a href="https://medium.com/@ahmedamine.achouri" target="_blank"><font-awesome-icon icon="fa-brands fa-medium" /></a>
+        <a href="https://www.instagram.com/amineachouri/" target="_blank"> <font-awesome-icon icon="fa-brands fa-instagram" /></a>
       </div>
       <p>👨‍💻 made by [aaa* media©]</p>
       <a href="mailto: aaamine.contact@gmail.com"><p>aaamine.contact@gmail.com</p></a>
@@ -16,7 +16,7 @@ p
 <style>
   .footer {
     height: 100px;
-    background-color: #333333;
+    background-color: #252322;
     display: flex;
     justify-content: space-around;
     align-items: center;

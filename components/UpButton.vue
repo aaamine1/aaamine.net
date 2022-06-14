@@ -1,13 +1,12 @@
 <template>
-    <a href="#about" class="button">
-      <!-- <img src="~/assets/down-arrow.png" class="down-arrow"> -->
-      <img src="~/static/down-arrow.png" class="down-arrow">
+    <a href="#top" class="button-up">
+      <img src="~/static/down-arrow.png" class="up-arrow">
     </a>
 </template>
 
 <style>
-  .button {
-
+  .button-up {
+    margin: 15px 15px 15px 15px;
     height: 50px;
     width: 50px;
     background-color: #252322;
@@ -18,15 +17,19 @@
     transition: background 0.3s ease;
   }
 
-  .button:hover {
+  .button-up:hover {
     background-color: #4b4846;
   }
 
-  .down-arrow {
+  .up-arrow {
     height: 15px;
     display: flex;
+    margin-bottom: 2px;
 
   }
 
+  .button-up img {
+    transform: rotate(180deg);
+  }
 
 </style>

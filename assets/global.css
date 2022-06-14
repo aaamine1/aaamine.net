@@ -22,6 +22,10 @@
   src: url('~/assets/fonts/JMH-Typewriter-dry-Black.otf') format('truetype');
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .button-black {
   background-color:#252322;
   padding: 8px 15px;

@@ -1,7 +1,7 @@
 <template>
 
   <div class="root">
-    <div class="home-intro">
+    <div class="home-intro" id="top">
       <Navbar/>
       <div class="button-position">
         <DownButton/>
@@ -16,12 +16,12 @@
       <div class="about-parent">
         <img src="~/static/me.png" class="me-window" alt="">
         <div class="socials">
-          <a href=""><font-awesome-icon icon="fa-brands fa-linkedin" /></a>
-          <a href=""><font-awesome-icon icon="fa-brands fa-github" /></a>
-          <a href=""><font-awesome-icon icon="fa-brands fa-medium" /></a>
-          <a href=""> <font-awesome-icon icon="fa-brands fa-instagram" /></a>
+          <a href="https://www.linkedin.com/in/amine-achouri/" target="_blank"><font-awesome-icon icon="fa-brands fa-linkedin" /></a>
+          <a href="https://github.com/aaamine1" target="_blank"><font-awesome-icon icon="fa-brands fa-github" /></a>
+          <a href="https://medium.com/@ahmedamine.achouri" target="_blank"><font-awesome-icon icon="fa-brands fa-medium" /></a>
+          <a href="https://www.instagram.com/amineachouri/" target="_blank"> <font-awesome-icon icon="fa-brands fa-instagram"/></a>
         </div>
-        <a href="" class="button-green cv-button"><font-awesome-icon icon="fa-solid fa-circle-arrow-down" /> Download CV</a>
+        <a href="https://doc-08-bo-docs.googleusercontent.com/docs/securesc/2ojuho09g8kotokn9a0du0tdlckkn4rt/45fb36r5k65g54f4njiv9v5t6pb9qnh3/1655223525000/01397931176994710687/01397931176994710687/1KEJtFub6Zld_SpYPns10DnuxmvuuMccw?e=download&ax=ACxEAsb_LyVHhPq8NUlBrtLKQYS9ImEIwaip9Xlb_ADtbS2iClfeQMphQWrH_9ZDBCbhQ3KfhjLdLGch4y5rCTE63d8zzjwky8AbkTIPb2H0WaKEDjYskuEYU2CcOmcBP_yvcWl8shwhRkePBiDY4A515sEACCiOhcztmczpPmhueFN7B_JGYeNOz68_rE2Ph5QcIqySoCaOnq_q2zhEGpAymf5iWj__KH1CxnMMrEB596xCkBM6djtZfdZt-w8_onJOO_TQIxQtPg0M_yeqqMzo7iZAQS9EtxfZ6IrGJxZWDNZLkTzSk3l1z4neo1vA0pXbQP85ufnhG76-NMqZeZ2uvYXk-fuEbDKl2n7DhNzQXAvQUiV8_BtYsuFe6WFoS6R0sw4Abfm1y3xzKwuRSIE_RqaMWOgDf7xtMzFhKn--w-ibmsU7lTzfV5gVbXNX4F2TKViLuKwFB2JuFFfXDwXeTwyNWTYnb9iU9XPlQzB5376cOwW_L0iVG4kJrPviQFQ5zuVrMA82gbmW_Bkt7RXknKSVZBYqJZBNrwW8Ca46wBXHvUL2P6GJL60tDAA_bBEDWcYJ0qC91wiuntdP-7WgrTWqbvC9GFkIJNnV4ya1bfBllX6_aijTVdSjitMcPZ405LW7KbtyAs2K9FdCi48CPH8PjOBS6y5EBLHHnXhSPXLJrMwvQggty0BqJd6_7UiunJkKXKoLA1Uz-wwiJ4YEtbXaOHtuC7qQiG5SY0gDVk-gg_GPuxnhztTAwDlmb7pJSGx78s-QPfDa6KyU2stPu_y5NhaoRXUHd3dxNqOjL9CJHGMDNyqQDQN2ccgGZmz09bDzJljAGCjbKuriv4bEsHSvmUhD4p3WDqH1GnXIfN3BaJwr1lxw4FuKopB2ZHb9&authuser=0" class="button-green cv-button"><font-awesome-icon icon="fa-solid fa-circle-arrow-down" /> Download CV</a>
         <div class="about-child">
           <img src="~/static/note-card.jpg" class="note-card" alt="">
         </div>
@@ -29,15 +29,18 @@
 
     </div>
 
-    <div class="services-section">
+    <div class="services-section" id="services">
       <h1>*/Services</h1>
       <ServiceCards />
     </div>
 
-    <div class="projects-section">
+    <div class="projects-section" id="projects">
 
       <Projects />
 
+      <div class="blank">
+        <UpButton />
+      </div>
     </div>
 
     <Footer />
@@ -150,9 +153,10 @@
 }
 
 .projects-section {
-  /* background-image: linear-gradient(15deg, #5ec07d 0%, #8cf8cb 150%); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #e1ece3;
-
 
 }
 .projects-section h1 {
@@ -164,10 +168,38 @@
   display: flex;
   justify-content: center;
   margin: 0px 65px 0px 0px;
+
+}
+
+.blank {
+  display: flex;
+  justify-content: center;
 }
 /* MEDIA QUERIES  */
 
+  @media(max-width: 560px) {
+    .services-section h1 {
+      font-size: 4rem;
+      margin: 0;
+    }
 
+    .projects-section h1 {
+      font-size: 4rem;
+      margin: 0;
+    }
+
+    @media(max-width: 768px) {
+      .me-window {
+        height: 200px;
+        position: absolute;
+        left: 520px;
+        top: 256px;
+        z-index: 2;
+      }
+    }
+
+
+  }
 </style>
 
 
