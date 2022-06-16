@@ -48,6 +48,7 @@
   text-align: center;
   font-weight: bold;
   color:#252322 ;
+  opacity: 0.9;
 }
 
 .service-card p {

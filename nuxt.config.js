@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'aaa_website',
+    title: 'aaamine*',
     htmlAttrs: {
       lang: 'en'
     },
@@ -18,7 +18,8 @@ export default {
 
   target: 'static', // default is 'server'
   router: {
-      base: '/aaamine.net/'
+      base: '/'
+      // base: '/aaamine.net/'
   },
 
   // Global CSS: https ://go.nuxtjs.dev/config-css
