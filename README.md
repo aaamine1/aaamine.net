@@ -1,4 +1,4 @@
-# [aaamine.me](http://aaamine.me/)
+# 🅰️ [aaamine.me](http://aaamine.me/)
 Personal Website created to learn Vue/NuxtJS and improve my node skills. 
 UI and components created from scratch. 
 
