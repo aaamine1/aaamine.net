@@ -59,6 +59,7 @@
 .service-card img {
     height: 100px;
     margin-bottom: 30px;
+    opacity: 0.8;
 }
 
 @media(max-width: 976px) {
