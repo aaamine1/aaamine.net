@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
     <div class="logo-home" id="top">
-      <a href="#top" class="logo-top">aaamine*</a>
+      <a href="https://github.com/aaamine1/aaamine1.github.io" class="logo-top" target="_blank">aaamine*</a>
     </div>
     <div class="navigation-links">
       <ul >
