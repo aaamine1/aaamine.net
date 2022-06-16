@@ -6,7 +6,7 @@
     <div class="small-details">
       <h2>Brussels, Rome, London</h2>
       <p>
-        email: aaamine.contact@gmail.com <br> tel: +32 040000000 <br> tel2: +44 070000000
+        email: aaamine.contact@gmail.com <br> tel: +32 466147913 <br> tel2: +44 7519659572
       </p>
     </div>
   </div>
@@ -59,6 +59,7 @@
   @media(max-width: 990px) {
     .details {
     width: 80%;
+    margin-bottom: 90px;
     }
   }
 
@@ -77,6 +78,7 @@
     .small-details h2 {
       font-size: 1.5rem ;
     }
+
   }
 
 

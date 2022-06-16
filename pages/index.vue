@@ -209,7 +209,7 @@
         height: 300px;
       }
   }
-  @media (max-width: 720px) {
+  @media (max-width: 990px) {
     .button-position{
       bottom: 100px;
     }
