@@ -1,4 +1,4 @@
-# aaamine1.github.io
+# aaamine.me
 Personal Website created with NuxtJS 
 
-#To-Do's#
+#To-Do's
