@@ -6,17 +6,18 @@
       <div class="service-card">
         <img src="~/static/dev.png" alt="">
         <h2>Web Design & Development</h2>
-        <p>Proin eget tortor risus. Donec sollicitudin molestie malesuada. Nulla quis lorem ut libero malesuada feugiat.</p>
+        <p>Whether you’re looking for a <strong>robust web application</strong> or a <strong>simple website</strong> for your business, I can help guide you through all stages of the process. Starting from designing a seamless interface to the functionalities that will in term meet the user. If you’re interested, feel free to contact me. </p>
       </div>
       <div class="service-card">
         <img src="~/static/video.png" alt="">
         <h2>Media & Content Production</h2>
-        <p>Proin eget tortor risus. Donec sollicitudin molestie malesuada. Nulla quis lorem ut libero malesuada feugiat.</p>
+        <p>If you need help creating <strong>content for your social media platforms</strong>, whether with branded designs or short to medium-sized video, I can help you create and develop your brand and media. Through a vast network emerging from past experience, I can additionally help you assemble a team of carefully-selected talented filmmakers and designers. </p>
       </div>
       <div class="service-card">
         <img src="~/static/translation.png" alt="">
         <h2>Translation & Localization</h2>
-        <p>Proin eget tortor risus. Donec sollicitudin molestie malesuada. Nulla quis lorem ut libero malesuada feugiat.</p>
+        <p>Speaking <strong>4 languages </strong> natively, I have <strong>5+ years of experience </strong>in translation, having worked mainly with literature and legal documents. I now aim to work on software localization projects. My preferred <strong>source languages</strong>  are French, English and Italian, while my <strong>target languages</strong> are French and English.
+            I have since created and currently operate a small translation agency thanks to my recurring clients.</p>
       </div>
     </div>
 
@@ -46,10 +47,13 @@
 .service-card h2 {
   text-align: center;
   font-weight: bold;
+  color:#252322 ;
 }
 
 .service-card p {
   text-align: center;
+  color: #252322;
+  opacity: 0.8;
 }
 
 .service-card img {

@@ -209,7 +209,12 @@
         height: 300px;
       }
   }
+  @media (max-width: 720px) {
+    .button-position{
+      bottom: 100px;
+    }
 
+  }
   @media(max-width: 879px) {
 
 
