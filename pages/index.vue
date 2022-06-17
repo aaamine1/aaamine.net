@@ -24,7 +24,7 @@
           <a href="https://medium.com/@ahmedamine.achouri" target="_blank"><font-awesome-icon icon="fa-brands fa-medium" /></a>
           <a href="https://www.instagram.com/amineachouri/" target="_blank"> <font-awesome-icon icon="fa-brands fa-instagram"/></a>
         </div>
-        <a href="https://drive.google.com/uc?export=download&id=1YEI5kTi7MDH7DepqWxzpLxxkcOoN1DYn" class="button-green cv-button"><font-awesome-icon icon="fa-solid fa-circle-arrow-down" /> Download CV</a>
+        <a href="https://drive.google.com/uc?export=download&id=1Sh0961l2iu-DQKPJ_H3bQrJtukXHVURD" class="button-green cv-button"><font-awesome-icon icon="fa-solid fa-circle-arrow-down" /> Download CV</a>
 
       </div>
 
