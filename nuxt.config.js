@@ -8,8 +8,9 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { hid: 'description', name: 'description', content: "I'm Amine, a Web Developer and Designer that is passionate about technology. I am constantly looking to improve and widen my skillset." },
+      { name: 'format-detection', content: 'telephone=no' },
+      { property: 'og:image', content:"~/static/website-preview.png"}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
