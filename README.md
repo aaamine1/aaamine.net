@@ -11,3 +11,4 @@ UI and components created from scratch.
 - Add my personal photo reel 
 - "What I'm currently working on" section/link
 - Code Blog from scratch 
+- Draw all icons by hand
